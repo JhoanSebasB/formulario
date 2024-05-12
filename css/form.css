@@ -38,9 +38,10 @@ form{
     padding: 2%;
     margin:2%;
     font-size: 20px;
-    border-radius: 5em;
+    border-radius: 6em;
+    border-width: 5px;
     border-color: black;
-    background: rgb(49, 48, 48);
+    background: whte;
     
 
 }
@@ -55,6 +56,10 @@ form{
     margin-bottom: 1rem;
     
     
+    
+}
+.btn:hover{
+    transform: scale(1.1);
 }
 input{
     color: #fff;  
