@@ -8,13 +8,14 @@ h1 {
     justify-content: center; /*centrar (2parte)*/
     font-size: 40px;/*tamaño de texto*/
     margin-bottom: 1em; /*ponerle margen asi abajo*/
+    margin-top: 1.5em;
     color: #fff;
    
 
 }
 p{
     color: #6c757d ;
-    margin: 5em; /*margenes asi todos los lados*/
+    margin: 3em; /*margenes asi todos los lados*/
     font-family: sebas,Arial, Helvetica, sans-serif;
     font-weight: bold; /*negrilla*/
     font-weight: 400; /*grosor del texto*/
@@ -24,36 +25,45 @@ p{
 
 }
 
-a:hover{
-    text-decoration: underline;
-}
-
-
-
 form{
     padding: 10px 30%;
     text-align: center;
     
     
+    
 }
 .a{
-    width: 100%;
+    width: 70%;
     text-align: center;
     padding: 2%;
     margin:2%;
     font-size: 20px;
     border-radius: 5em;
     border-color: black;
+    background: rgb(49, 48, 48);
     
 
 }
 
+
 .btn{
-    width: 50%;
+    width: 40%;
     border-radius:10rem;
+    border-width: 5px;
     cursor: pointer;
     color: grey;
+    margin-bottom: 1rem;
+    
+    
 }
 input{
-    color: #fff;
+    color: #fff;  
 }
+div{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+
