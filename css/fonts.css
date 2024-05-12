@@ -1,0 +1,9 @@
+@font-face {
+    font-family: sebas;
+    src: url("fonts/Montserrat-Regular.ttf") format("truetype");
+    
+}
+@font-face {
+    font-family: sebas;
+    src: url("fonts/Montserrat-Black.ttf") format("truetype");
+}

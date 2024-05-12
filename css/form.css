@@ -1,0 +1,59 @@
+*{
+    background: #212529;
+    box-sizing: border-box;
+
+}
+h1 {
+    display: flex; /*Centrar (1parte)*/
+    justify-content: center; /*centrar (2parte)*/
+    font-size: 40px;/*tamaño de texto*/
+    margin-bottom: 1em; /*ponerle margen asi abajo*/
+    color: #fff;
+   
+
+}
+p{
+    color: #6c757d ;
+    margin: 5em; /*margenes asi todos los lados*/
+    font-family: sebas,Arial, Helvetica, sans-serif;
+    font-weight: bold; /*negrilla*/
+    font-weight: 400; /*grosor del texto*/
+    text-align: center;
+    line-height: 1.4; /* espaciado de arriba a abajo*/
+    padding: 12px;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+form{
+    padding: 10px 30%;
+    text-align: center;
+    
+    
+}
+.a{
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+    margin:2%;
+    font-size: 20px;
+    border-radius: 5em;
+    border-color: black;
+    
+
+}
+
+.btn{
+    width: 50%;
+    border-radius:10rem;
+    cursor: pointer;
+    color: grey;
+}
+input{
+    color: #fff;
+}

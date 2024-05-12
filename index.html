@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="../css/form.css">
+    <!--(REL) voy a vincular (stylesheet) una hoja de estilos-->
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../icomoon/style.css">
+
+   
+
+
+</head>
+<body>
+    <div>
+    <h1>Formulario</h1>
+    <p id="p">  <!--"identificador" para solo un elemento-->
+        Form and sending information by email
+    </p>
+    
+    
+    <form action="https://formsubmit.co/barraganmartinezjhoan@gmail.com" method="POST" />
+        <input class="a" type="text" name="name" placeholder="Name" minlength="3" required> <!--"required" obligatorio llenar ese campo-->
+        <!--<input class="a" type="text"  placeholder="Last Name" minlength="3" required> "minlegth" para poner un minimo de caracteres-->
+        <input class="a" type="email" name="email" placeholder="Example@gmail.com"><!--"name" identificador (para servidores)-->
+        <input class="a" type="text" name="subject" placeholder="Message" minlength="3" required>
+        <!--<input class="a" type="password" placeholder="password"> "placeholder" para que alla un texto en el input-->
+        <!--<inputc type="checkbox"> tipo "aceptas terminos y condiciones"-->
+        <!--<input type="radio"> para elegir una opcion de varias-->
+        <!--<input class="a" type="file"> seleccionar un archivo-->
+        <!--<input type="date">seleccionar una fecha-->
+        <!--<input type="color">-->
+        <input  class="a btn" type="submit">  
+        <input type="hidden" name="_next" value="http://127.0.0.1:3000/html/form.html">
+        <input type="hidden" name="_captcha" value="false">
+    </form>
+</div>
+</body>
+</html>
